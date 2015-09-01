@@ -15,6 +15,7 @@
 		5B2849CB1B94D889009C3564 /* populate_contactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2849CA1B94D889009C3564 /* populate_contactsTests.swift */; };
 		5B2849DF1B94DA35009C3564 /* contacts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B2849DE1B94DA35009C3564 /* contacts.csv */; };
 		5B284A151B94F10E009C3564 /* SwiftCSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B284A141B94F10E009C3564 /* SwiftCSV.framework */; };
+		5B284A171B94FA9D009C3564 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B284A161B94FA9D009C3564 /* Contact.swift */; };
 		C93819470685E5E153031922 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84A40D2D3A4FC681247E09F /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		5B2849CA1B94D889009C3564 /* populate_contactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = populate_contactsTests.swift; sourceTree = "<group>"; };
 		5B2849DE1B94DA35009C3564 /* contacts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = contacts.csv; path = data/contacts.csv; sourceTree = "<group>"; };
 		5B284A141B94F10E009C3564 /* SwiftCSV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCSV.framework; path = "Pods/../build/Debug-iphoneos/SwiftCSV.framework"; sourceTree = "<group>"; };
+		5B284A161B94FA9D009C3564 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		6E93561E54953BE6FFDCF9FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E84A40D2D3A4FC681247E09F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD08DDD1710809D8C2B1AAA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		5B2849B11B94D889009C3564 /* populate-contacts */ = {
 			isa = PBXGroup;
 			children = (
+				5B284A161B94FA9D009C3564 /* Contact.swift */,
 				5B2849B41B94D889009C3564 /* AppDelegate.swift */,
 				5B2849B61B94D889009C3564 /* ViewController.swift */,
 				5B2849B81B94D889009C3564 /* Main.storyboard */,
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B284A171B94FA9D009C3564 /* Contact.swift in Sources */,
 				5B2849B71B94D889009C3564 /* ViewController.swift in Sources */,
 				5B2849B51B94D889009C3564 /* AppDelegate.swift in Sources */,
 			);

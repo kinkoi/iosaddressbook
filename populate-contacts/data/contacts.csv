@@ -1,5 +1,6 @@
-Tyrion,Lannister, abc@mail.com, img1
-Stannis, Baratheon, efg@mail.com, img2
-Petyr, Baelish, efaa@mail.com, img3
-Daenerys, Targaryen, kk@mail.com, img4
-Theon, Greyjoy, afadf@mail.com, img5
+first name,last name,email,image
+Tyrion,Lannister,abc@mail.com,img1.png
+Stannis,Baratheon,efg@mail.com,img2.png
+Petyr,Baelish,efaa@mail.com,img3.png
+Daenerys,Targaryen,kk@mail.com,img4.png
+Theon,Greyjoy,afadf@mail.com,img5.png
